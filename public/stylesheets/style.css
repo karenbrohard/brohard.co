@@ -6,3 +6,8 @@ body {
 a {
   color: #00B7FF;
 }
+
+h5 {
+  font-weight: 700;
+  font-size: 3.2em;
+}
