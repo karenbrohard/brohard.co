@@ -64,6 +64,12 @@ have a fixed width and height (but it's not required).
 .jcarousel li#img3 {
   background-image: url(/images/PODO2.jpg);
 }
+.jcarousel li#img4 {
+  background-image: url(/images/dog.jpg);
+}
+.jcarousel li#img5 {
+  background-image: url(/images/group.jpg);
+}
 
 .nav {
   padding: 0px;
