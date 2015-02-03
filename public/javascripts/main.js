@@ -20,3 +20,21 @@ $(function() {
     	carousel.scroll("+=1")
     },3000)
 });
+
+$(function() {
+    $(window).scroll(function(){
+        console.log("scrolled")
+        var top = $(window).scrollTop()
+        $(".jcarousel").css({
+            "top":top*0.6
+        });
+    })
+
+}
+
+    )
+
+
+
+
+
