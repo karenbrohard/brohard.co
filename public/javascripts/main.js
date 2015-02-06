@@ -34,7 +34,21 @@ $(function() {
 
     )
 
-
+$(function(){
+    $(".nav").on("click","li",function(e){
+        var offset=0;
+        var el=$(e.currentTarget)
+        if (el.is(".about")) {
+            offset=$(".facepic").offset().top
+        }else if (el.is(".whatido")) {
+            offset=$("#whatido").offset().top
+        };
+        ;
+        $('html, body').animate({
+            scrollTop: offset-100
+        },600)
+    })
+})
 
 
 

@@ -11,7 +11,7 @@ a {
 }
 h5 {
 	font-weight: 700;
-	font-size: 3.2em;
+	font-size: 2em;
 }
 /*
 This is the visible area of you carousel.
@@ -51,20 +51,23 @@ have a fixed width and height (but it's not required).
     background-size: cover;
     background-position: center;
 }
+
 .jcarousel li#img1 {
-	background-image: url(https://lh4.googleusercontent.com/-4hNna9v5z2g/AAAAAAAAAAI/AAAAAAAAAAA/Dm_cvCFGz_8/photo.jpg);
+  background-image: url(https://lh4.googleusercontent.com/-4hNna9v5z2g/AAAAAAAAAAI/AAAAAAAAAAA/Dm_cvCFGz_8/photo.jpg);
 }
 
 .jcarousel li#img2 {
-	background-image: url(/images/PODO.jpg);
+  background-image: url(/images/PODO.jpg);
 }
 
 .jcarousel li#img3 {
-	background-image: url(/images/PODO2.jpg);
+  background-image: url(/images/PODO2.jpg);
 }
+
 .jcarousel li#img4 {
   background-image: url(/images/dog.jpg);
 }
+
 .jcarousel li#img5 {
   background-image: url(/images/group.jpg);
 }
@@ -84,8 +87,9 @@ have a fixed width and height (but it's not required).
   background-image: url(/images/obl.jpg);
 }
 .jcarousel li#img11 {
-  background-image: url(/images/potlatch.jpg);
+  background-image: url(/images/Potlatch.jpg);
 }
+
 
 
 .nav {
@@ -132,7 +136,7 @@ a:hover{
 	left: 0px;
 	right: 0px;
 	min-height: 1000px;
-	background-color: green;
+	background-color: #E6FBFC;
 }
 
 .parallax {
@@ -158,15 +162,41 @@ a:hover{
 }
 
 .content {
- padding: 10px 20px;
+ padding: 0px;
  text-align: center;
  padding-top: 100px;
+ h2 {
+ 	font-size: 2em;
+ }
 
 
 }
 
+.fa {
+	text-align: center;
+}
 
 
+.fa-8x {
+font-size: 8em;
+}
+
+.flexbox {
+	display: flex;
+	div {
+		flex-grow:1;
+	}
+}
+
+#whatido {
+	padding: 50px 20px;
+	margin-top: 50px;
+	background-color: white;
+}
+
+#about {
+	padding: 50px 20px;
+}
 
 
 
